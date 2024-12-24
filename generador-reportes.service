@@ -1,0 +1,12 @@
+[Unit]
+Description=Generador de Reportes
+After=network.target
+
+[Service]
+User=administrador
+WorkingDirectory=/home/administrador/reportes-pdf
+ExecStart=/home/administrador/.local/bin/gunicorn --workers 3 --bind 0.0.0.0:6003 wsgi:app
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

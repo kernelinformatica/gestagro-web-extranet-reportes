@@ -8,6 +8,9 @@ class GestagroConnection:
         self.user = "coopstxt"
         self.password = "@HumB3rt01"
         self.port = "40306"
+        self.userSftp ="root"
+        self.passwordSftp = "@HumB3rt01"
+        self.portSftp = "5612"
         self.conn = self.create_connection()
 
     def create_connection(self):

@@ -1,2 +1,82 @@
-werkzeug - WARNING -  * Debugger is active!
-werkzeug - INFO -  * Debugger PIN: 971-017-983
+PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 78 22
+PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 112 28
+PIL.PngImagePlugin - DEBUG - STREAM b'prVW' 152 2553
+PIL.PngImagePlugin - DEBUG - b'prVW' 152 2553 (unknown)
+PIL.PngImagePlugin - DEBUG - STREAM b'mkBF' 2717 72
+PIL.PngImagePlugin - DEBUG - b'mkBF' 2717 72 (unknown)
+PIL.PngImagePlugin - DEBUG - STREAM b'mkTS' 2801 35022
+PIL.PngImagePlugin - DEBUG - b'mkTS' 2801 35022 (unknown)
+PIL.PngImagePlugin - DEBUG - STREAM b'mkBS' 37835 190
+PIL.PngImagePlugin - DEBUG - b'mkBS' 37835 190 (unknown)
+PIL.PngImagePlugin - DEBUG - STREAM b'mkBT' 38037 2741
+PIL.PngImagePlugin - DEBUG - b'mkBT' 38037 2741 (unknown)
+PIL.PngImagePlugin - DEBUG - STREAM b'mkBT' 40790 18351
+PIL.PngImagePlugin - DEBUG - b'mkBT' 40790 18351 (unknown)
+PIL.PngImagePlugin - DEBUG - STREAM b'mkBT' 59153 5032
+PIL.PngImagePlugin - DEBUG - b'mkBT' 59153 5032 (unknown)
+PIL.PngImagePlugin - DEBUG - STREAM b'mkBT' 64197 3799
+PIL.PngImagePlugin - DEBUG - b'mkBT' 64197 3799 (unknown)
+PIL.PngImagePlugin - DEBUG - STREAM b'mkBT' 68008 537
+PIL.PngImagePlugin - DEBUG - b'mkBT' 68008 537 (unknown)
+PIL.PngImagePlugin - DEBUG - STREAM b'mkBT' 68557 1145
+PIL.PngImagePlugin - DEBUG - b'mkBT' 68557 1145 (unknown)
+PIL.PngImagePlugin - DEBUG - STREAM b'mkBT' 69714 16701
+PIL.PngImagePlugin - DEBUG - b'mkBT' 69714 16701 (unknown)
+PIL.PngImagePlugin - DEBUG - STREAM b'mkBT' 86427 339
+PIL.PngImagePlugin - DEBUG - b'mkBT' 86427 339 (unknown)
+PIL.PngImagePlugin - DEBUG - STREAM b'mkBT' 86778 4466
+PIL.PngImagePlugin - DEBUG - b'mkBT' 86778 4466 (unknown)
+PIL.PngImagePlugin - DEBUG - STREAM b'mkBT' 91256 10775
+PIL.PngImagePlugin - DEBUG - b'mkBT' 91256 10775 (unknown)
+PIL.PngImagePlugin - DEBUG - STREAM b'iTXt' 102043 12824
+PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 114879 6553
+paramiko.transport - DEBUG - starting thread (client mode): 0x53639f90
+paramiko.transport - DEBUG - Local version/idstring: SSH-2.0-paramiko_3.5.0
+paramiko.transport - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.10+esm6
+paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_7.2p2)
+paramiko.transport - DEBUG - === Key exchange possibilities ===
+paramiko.transport - DEBUG - kex algos: curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group14-sha1, kex-strict-s-v00@openssh.com
+paramiko.transport - DEBUG - server key: ssh-rsa, rsa-sha2-512, rsa-sha2-256, ecdsa-sha2-nistp256, ssh-ed25519
+paramiko.transport - DEBUG - client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+paramiko.transport - DEBUG - server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+paramiko.transport - DEBUG - client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+paramiko.transport - DEBUG - server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+paramiko.transport - DEBUG - client compress: none, zlib@openssh.com
+paramiko.transport - DEBUG - server compress: none, zlib@openssh.com
+paramiko.transport - DEBUG - client lang: <none>
+paramiko.transport - DEBUG - server lang: <none>
+paramiko.transport - DEBUG - kex follows: False
+paramiko.transport - DEBUG - === Key exchange agreements ===
+paramiko.transport - DEBUG - Strict kex mode: True
+paramiko.transport - DEBUG - Kex: curve25519-sha256@libssh.org
+paramiko.transport - DEBUG - HostKey: ssh-ed25519
+paramiko.transport - DEBUG - Cipher: aes128-ctr
+paramiko.transport - DEBUG - MAC: hmac-sha2-256
+paramiko.transport - DEBUG - Compression: none
+paramiko.transport - DEBUG - === End of kex handshake ===
+paramiko.transport - DEBUG - Resetting outbound seqno after NEWKEYS due to strict mode
+paramiko.transport - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+paramiko.transport - DEBUG - Switch to new keys ...
+paramiko.transport - DEBUG - Resetting inbound seqno after NEWKEYS due to strict mode
+paramiko.transport - DEBUG - Attempting password auth...
+paramiko.transport - DEBUG - Got EXT_INFO: {'server-sig-algs': b'rsa-sha2-256,rsa-sha2-512'}
+paramiko.transport - DEBUG - userauth is OK
+paramiko.transport - INFO - Authentication (password) successful!
+paramiko.transport - DEBUG - [chan 0] Max packet in: 32768 bytes
+paramiko.transport - DEBUG - Received global request "hostkeys-00@openssh.com"
+paramiko.transport - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+paramiko.transport - DEBUG - [chan 0] Max packet out: 32768 bytes
+paramiko.transport - DEBUG - Secsh channel 0 opened.
+paramiko.transport - DEBUG - [chan 0] Sesch channel 0 request ok
+paramiko.transport.sftp - INFO - [chan 0] Opened sftp connection (server version 3)
+paramiko.transport.sftp - DEBUG - [chan 0] open(b'/opt/domains/payaradomain/docroot/clientes/pdf/reporte_3.pdf', 'wb')
+paramiko.transport.sftp - DEBUG - [chan 0] open(b'/opt/domains/payaradomain/docroot/clientes/pdf/reporte_3.pdf', 'wb') -> 00000000
+paramiko.transport.sftp - DEBUG - [chan 0] close(00000000)
+paramiko.transport.sftp - DEBUG - [chan 0] stat(b'/opt/domains/payaradomain/docroot/clientes/pdf/reporte_3.pdf')
+paramiko.transport.sftp - INFO - [chan 0] sftp session closed.
+paramiko.transport - DEBUG - [chan 0] EOF sent (0)
+paramiko.transport - DEBUG - EOF in transport thread
